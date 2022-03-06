@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(img/Espaco.jpeg);
+}
+
+/*////// Menu ///////*/
+.menu {
+	padding: 10px;
+	background-color: black;
+	border: solid 2px;
+	border-color: white;
+}
+
+.menu ul {
+	text-decoration-color: white;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+.menu li{
+
+}
+
+/*////// Capa ///////*/
+.capa {
+	color: white;
+}
+
+.capa h2 p{
+	margin: 10px;
+}
+
+.capa img{
+	margin-top: 2%;
+	margin-left: 19%;
+	margin-bottom: 2%;
+}
+/*////// Secret /////*/
+#secret {
+	
+}
+
+/*/////// SUS ///////*/
+.sus{
+
+}
+
+.sus img{
+	width: 150px;
+	height: 200px;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.sus ul {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+/*///// Rodape //////*/
+.rodape {
+	padding: 10px;
+	color: white;
+	background-color: black;
+
+}
+
+/*///// Media Queries /////*/
